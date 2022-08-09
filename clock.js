@@ -13,11 +13,11 @@ function update() {
     let min = date.getMinutes() / 60;
     let hour = date.getHours() / 60;
 
-    secDiv.style.transform = "rotate(" + (sec * 360)+"deg)";
+    secDiv.style.transform = "rotate(" + (sec * 360) + "deg)";
     // console.log(secDiv)
-    minDiv.style.transform = "rotate(" + (min * 360) +"deg)";
+    minDiv.style.transform = "rotate(" + (min * 360) + "deg)";
     // console.log(minDiv);
-    hourDiv.style.transform = "rotate("+(hour* 360)+"deg)";
+    hourDiv.style.transform = "rotate(" + (hour * 360) + "deg)";
     // console.log(hourDiv);
 }
 update();
