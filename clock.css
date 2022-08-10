@@ -17,9 +17,9 @@ body {
     width: 500px;
     height: 500px;
     overflow: hidden;
-    border: 20px solid goldenrod;
+    border: 25px solid goldenrod;
     border-radius: 250px;
-    background-color: white;
+    background-color: black;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -144,9 +144,19 @@ body {
 }
 
 .num12 div {
-    color:darkred;
+    color: darkred;
     transform: rotate(-360deg);
-} 
+}
+
+.text {
+    /* color: gold; */
+}
+
+.text div {
+    background-color: gold;
+    font-weight: bold;
+    align-items: center;
+}
 
 .hand {
     position: absolute;
@@ -161,23 +171,24 @@ body {
     bottom: 50%;
     left: 50%;
     transform: translateX(-50%);
-    background-color: black;
+    background-color: white;
 }
 
 .second {
-    width: 2px;
-    height: 40%;
+
+    width: 3px;
+    height: 38%;
 
 }
 
 .minute {
-    height: 38%;
-    width: 4px;
+    height: 35%;
+    width: 6px;
     border-radius: 2px;
 }
 
 .hour {
-    height: 28%;
-    width: 8px;
+    height: 30%;
+    width: 12px;
     border-radius: 4px;
 }
