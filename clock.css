@@ -17,34 +17,13 @@ body {
     width: 500px;
     height: 500px;
     overflow: hidden;
-    border: 10px solid black;
+    border: 20px solid goldenrod;
     border-radius: 250px;
     background-color: white;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-}
-
-.clock:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-}
-
-.clock:before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 20px;
-    height: 20px;
-    background-color: black;
-    border-radius: 50%;
 }
 
 .num {
@@ -59,17 +38,6 @@ body {
     padding: 18px;
 
 
-}
-
-.num:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 5px;
-    height: 15px;
-    background-color: black;
 }
 
 .num1 {
@@ -171,13 +139,14 @@ body {
     transform: rotate(-330deg);
 }
 
-/* .num12 {
+.num12 {
     transform: rotate(360deg);
 }
 
 .num12 div {
+    color:darkred;
     transform: rotate(-360deg);
-} */
+} 
 
 .hand {
     position: absolute;
